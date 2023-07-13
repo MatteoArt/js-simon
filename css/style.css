@@ -10,6 +10,9 @@ h1.title {
     text-align: center;
     margin-top: 20px;
 }
+h2.subtitle, h3.subtitle {
+    text-align: center;
+}
 .container {
     max-width: 800px;
     margin: 30px auto;
@@ -18,4 +21,17 @@ h1.title {
     text-align: center;
     font-size: large;
     font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+#timer {
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    padding: 15px;
+}
+.message {
+    text-transform: uppercase;
+    font-size: large;
+    color: red;
 }
